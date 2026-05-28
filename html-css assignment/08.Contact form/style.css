@@ -1,0 +1,32 @@
+body{
+  font-family:Arial;
+  background:#f4f4f4;
+}
+
+.contact-container{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+
+.contact-form{
+  background:white;
+  padding:30px;
+  width:350px;
+  border-radius:10px;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+}
+
+.contact-form button{
+  width:100%;
+  padding:12px;
+  background:#00adb5;
+  border:none;
+  color:white;
+}
